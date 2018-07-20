@@ -1,0 +1,43 @@
+@import './variables';
+
+.header {
+  color: $tappy-white;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+  h1, li {
+    opacity: 0;
+    padding: 20px;
+  }
+
+  h1 {
+    font-family: $tappy-font;
+    font-size: 14pt;
+  }
+
+  li {
+    font-family: $tappy-menu-font;
+    font-size: 10pt;
+    text-transform: uppercase;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+  .menu {
+    ol {
+      display: flex;
+      list-style: none;
+      margin: 0;
+    }
+  }
+}

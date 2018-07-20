@@ -1,0 +1,19 @@
+@import './variables';
+
+.banner {
+  display: flex;
+
+  color: $potus-white;
+  font-family: $potus-font;
+
+  section {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  h1 {
+    opacity: 0;
+    font-size: 120pt;
+    margin: 1em;
+  }
+}
