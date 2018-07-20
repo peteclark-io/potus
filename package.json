@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "animejs": "^2.2.0",
+    "hawk": "^7.0.7",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "reset-css": "^4.0.1"
